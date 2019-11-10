@@ -1,0 +1,14 @@
+<header class="header" role="banner">
+  <h1 class="header__id"><a href="/">{{ .Site.Title }}</a></h1>
+  <p class="header__description">{{ .Site.Params.description }}</p>
+  <nav class="header__navigation" role="navigation">
+    <ul>
+      {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        <li><a href="{{ "/categories/" | relURL }}{{ $name | urlize }}" rel="tag category">{{ $name }}</a></li>
+      {{ end }}
+      <li><a href="/about/">about</a></li>
+      <li><a href="{{ .Site.Params.photos }}" target="_blank">photos ↗</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="contents">

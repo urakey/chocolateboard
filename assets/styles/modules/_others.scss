@@ -1,0 +1,133 @@
+//==============================================================================
+//  Module: Class
+//==============================================================================
+
+.assistive {
+  display: none;
+}
+
+.transform--none {
+  text-transform: none;
+}
+
+.scrollable--horizontal {
+  display: block;
+  margin: $mlv4 auto;
+  overflow-x: auto;
+  // -webkit-overflow-scrolling: touch;
+  & > * {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  &::-webkit-scrollbar {
+    height: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $background;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+  }
+}
+
+.br--small {
+  display: none;
+
+  @include respondTo(small) {
+    display: block !important;
+  }
+}
+
+.notice {
+  @extend %notice;
+  &::before {
+    content: "※ ";
+  }
+}
+
+.text {
+  &--aligncenter {
+    text-align: center;
+  }
+  &--alignleft {
+    text-align: left;
+  }
+  &--alignright {
+    text-align: right;
+  }
+}
+
+.project {
+  margin-bottom: $mlv4;
+
+  dt {
+    display: none;
+  }
+
+  dd {
+    margin-left: 0;
+  }
+
+  &::after {
+    content: "-";
+  }
+}
+
+.project__name {
+  @include fontSize(18);
+
+  margin: $mlv5 0;
+}
+.project__date {
+  @include fontSize(12);
+}
+.project__url {
+  @include fontSize(12);
+}
+.project__credits {
+  @include fontSize(12);
+
+  margin: $mlv5 0 $mlv4;
+
+  p {
+    margin: 0;
+  }
+}
+
+.recommend {
+  @include linkColor($base-link-color, $base-link-color, "none", "none", $base-link-color, true);
+
+  margin: $mlv4 0;
+  border: $border 1px solid;
+
+  a {
+    display: table;
+    width: 100%;
+  }
+
+  figure {
+    @include respondTo(medium) {
+      width: 40%;
+    }
+
+    width: 25%;
+  }
+}
+
+.recommend__image {
+  @extend %image-fit;
+
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.recommend__body {
+  display: table-cell;
+  padding: 20px;
+  vertical-align: middle;
+  border-right: $border 1px solid;
+
+  p + p {
+    @extend %notice;
+  }
+}

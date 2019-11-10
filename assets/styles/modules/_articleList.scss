@@ -1,0 +1,27 @@
+//==============================================================================
+//  Module: Article list
+//==============================================================================
+
+.articleList {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articleList__item {
+  @include respondTo(medium) {
+    width: 49%;
+  }
+  @include respondTo(small) {
+    width: 100%;
+  }
+
+  width: 32.5%;
+  padding-bottom: 2rem;
+}

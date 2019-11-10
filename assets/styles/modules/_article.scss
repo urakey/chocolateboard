@@ -1,0 +1,335 @@
+//==============================================================================
+//  Module: Article
+//==============================================================================
+
+.article__title {
+  @include respondTo(small) {
+    @include fontSize(22);
+  }
+
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.article__eyecatch {
+  @extend %image-fit;
+
+  margin: $mlv4 0;
+
+  figcaption {
+    @extend %notice;
+    @include linkColor($key-color-2-ll, $key-color-2-ll);
+
+    margin: .5em 0;
+    font-style: italic;
+  }
+}
+
+.article__body {
+  @include linkColor($base-link-color, $base-link-color, "underline", "none", $base-link-color, true);
+  @extend %clearfix;
+
+  margin: $mlv4 0 0;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    & + p,
+    & + ul {
+      margin-top: -.3em;
+    }
+  }
+
+  h2 {
+    @include fontSize(24);
+
+    padding-bottom: .5em;
+    margin-top: $mlv2;
+    margin-bottom: $mlv4;
+    font-weight: normal;
+    line-height: 1.2;
+    border-bottom: $border 1px solid;
+  }
+
+  h3 {
+    @include fontSize(20);
+
+    padding-bottom: .5em;
+    margin-top: $mlv3;
+    font-weight: normal;
+    line-height: 1.2;
+    border-bottom: $border 1px solid;
+  }
+
+  h4 {
+    @include fontSize(18);
+
+    padding-left: .7em;
+    margin-top: $mlv4;
+    line-height: 1.2;
+    border-left: $border 5px solid;
+  }
+
+  h5,
+  h6 {
+    @include fontSize(16);
+
+    margin-top: $mlv4;
+    line-height: 1.2;
+  }
+
+  hr {
+    height: 1em;
+    margin: $mlv2 auto;
+    border: 0;
+    opacity: .1;
+
+    &::before {
+      display: block;
+      height: 100%;
+      background-image: url($base-image + "/svg/hr.svg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: "\0020";
+    }
+  }
+
+  strong {
+    padding: 0 .3em;
+    background: $key-color-2-lll;
+    border-bottom: $base-color 1px dotted;
+  }
+
+  em {
+    padding: 0 .3em;
+    font-style: normal;
+    background: $key-color-2-lll;
+  }
+
+  mark {
+    // padding: 0 .2em;
+    // background: $key-yellow + 150;
+  }
+
+  ins {
+    border-bottom: $base-color 1px double;
+  }
+
+  code {
+    @extend %radius;
+
+    padding: 2px;
+    margin: 0 3px;
+    font-family: $code-font;
+    font-size: 12px;
+    white-space: normal;
+    background: $background;
+    border: $border 1px solid;
+  }
+
+  pre {
+    @extend %base;
+    @include respondTo(large) {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    padding: 20px;
+    margin: $mlv4 0 $mlv4 $mlv5;
+    overflow: auto;
+    line-height: 1.2;
+
+    code {
+      padding: 0;
+      margin: 0;
+      white-space: pre-wrap;
+      white-space: pre;
+      background: none;
+      border: 0;
+    }
+  }
+
+  ul {
+    @extend %resetlist;
+    @include respondTo(large) {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    margin: $mlv5 0 $mlv5 $mlv5;
+
+    li {
+      &::before {
+        @extend %icon;
+
+        margin-right: .3em;
+        color: $key-color-1;
+        content: "\f1db";
+      }
+    }
+  }
+
+  ol {
+    @include respondTo(large) {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    margin: $mlv4 0 $mlv4 $mlv5;
+  }
+
+  table {
+    @include respondTo(medium) {
+      table {
+        overflow: auto;
+      }
+    }
+
+    min-width: 90%;
+    margin: $mlv4 auto;
+    background: white;
+    border-bottom: $border 1px solid;
+    border-left: $border 1px solid;
+
+    th {
+      min-width: 3em;
+      padding: .3em .5em;
+      font-weight: bold;
+      white-space: nowrap;
+      background: $background;
+      border-top: $border 1px solid;
+      border-right: $border 1px solid;
+    }
+    td {
+      padding: .5em;
+      white-space: nowrap;
+      border-top: $border 1px solid;
+      border-right: $border 1px solid;
+    }
+  }
+
+  figure {
+    max-width: 100%;
+    margin: $mlv4 0;
+
+    img {
+      max-width: 100%;
+    }
+
+    figcaption {
+      @extend %notice;
+      @include linkColor($key-color-2-ll, $key-color-2-ll);
+
+      margin: .5em 0;
+      font-style: italic;
+    }
+  }
+
+  blockquote {
+    @include fontSize(13);
+    @extend %base;
+
+    max-width: 100%;
+    margin: $mlv4 0;
+    color: $key-color-2-l;
+
+    cite {
+      @extend %notice;
+
+      display: block;
+
+      a {
+        padding-left: .5em;
+      }
+      &::before {
+        content: "\002014";
+      }
+    }
+  }
+}
+
+.article__footer {
+  @include fontSize(12);
+  @include linkColor($key-color-2-ll, $key-color-2-ll, "none", "none", $key-color-2-ll, true);
+
+  color: $key-color-2-ll;
+
+  ul {
+    @extend %resetlist;
+  }
+
+  li {
+    display: inline-block;
+    letter-spacing: .05em;
+    & + li {
+      &::before {
+        margin: 0 .5em;
+        content: " / ";
+      }
+    }
+  }
+
+  span {
+    display: none;
+  }
+}
+
+.article__sectionTitle {
+  @extend %title;
+
+  margin: $mlv1 0 2em;
+}
+
+.article__sectionList {
+  @extend %list-icon;
+  @include fontSize(14);
+  @include respondTo(small) {
+    @include fontSize(12);
+  }
+}
+
+.article__sectionShare {
+  @extend %resetlist;
+  @extend %radius;
+  @include respondTo(medium) {
+    font-size: 0;
+    li {
+      display: inline-block;
+      width: 50%;
+      &:nth-child(1),
+      &:nth-child(4) {
+        background: $background;
+      }
+      &:nth-child(2),
+      &:nth-child(3) {
+        background: white;
+      }
+    }
+  }
+
+  display: table;
+  width: 100%;
+  text-align: center;
+  border: $border 1px solid;
+  box-sizing: border-box;
+
+  li {
+    display: table-cell;
+    min-width: 80px;
+    padding: 10px;
+    line-height: 1;
+    vertical-align: top;
+    box-sizing: border-box;
+    &:nth-child(odd) {
+      background: $background;
+    }
+    &:nth-child(even) {
+      background: white;
+    }
+  }
+}

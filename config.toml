@@ -1,0 +1,27 @@
+Baseurl          = 'https://chocolateboard.net'
+LegalanguageCode = 'ja-JP'
+Title            = 'chocolateboard.'
+Publishdir       = 'docs'
+Paginate         = 24
+
+[Author]
+name = 'Aki Fukayama [akey]'
+url  = '/about/'
+
+[Params]
+description = 'Aki Fukayama [akey] // Designer, UI Engineer'
+feed        = '/feed.rss'
+blog        = 'https://log.chocolateboard.net'
+photos      = 'https://1020.chocolateboard.net/'
+twitter     = 'https://twitter.com/urakey'
+facebook    = 'https://www.facebook.com/urakey'
+instagram   = 'https://www.instagram.com/akey'
+pinterest   = 'https://pinterest.com/urakey'
+lastfm      = 'https://www.last.fm/ja/user/urakey'
+github      = 'https://github.com/urakey'
+lineblog    = 'https://lineblog.me/akey'
+archives    = ['2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012', '2011']
+
+[Taxonomies]
+tags       = 'tags'
+categories = 'categories'

@@ -1,0 +1,179 @@
+//==============================================================================
+//  Utility: Mixin
+//==============================================================================
+
+//------------------------------------------------------------------------------
+//
+// 引数px相当のフォントサイズ相対で出力
+//
+// @param size(require) Number - 出力したいフォントサイズを指定
+//
+//------------------------------------------------------------------------------
+@mixin fontSize($size) {
+  font-size: unquote(($size/16) + "rem");
+}
+
+//------------------------------------------------------------------------------
+//
+// 指定行数で 3 点リード
+//
+// @param num(require) Number - 行数を指定
+//
+//------------------------------------------------------------------------------
+@mixin lineclamp($num) {
+  display: -webkit-box;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $num;
+}
+
+//------------------------------------------------------------------------------
+//
+// テキストリンクの色とtext-decoration
+//
+// @param color1(require)      String  - リンク色 ex) $key-blue or #3498db
+// @param color2(optional)     String  - リンク色 :visited
+// @param underline1(optional) String  - text-decoration
+// @param underline2(optional) String  - text-decoration :hover
+// @param color3(optional)     String  - リンク色 :hover
+// @param opacity(optional)    Boolean - :hover 透過アニメーションの有無
+//
+//------------------------------------------------------------------------------
+@mixin linkColor($color1, $color2: $base-link-color-visited, $underline1:"underline", $underline2:"none", $color3:$color1, $opacity:false) {
+
+  a {
+    color: $color1;
+    text-decoration: unquote($underline1);
+
+    &:visited {
+      color: $color2;
+    }
+
+    &:hover {
+      text-decoration: unquote($underline2);
+
+      @if $color3 {
+        color: $color3;
+      }
+
+      @if $opacity {
+        opacity: .6;
+        transition-duration: .3s;
+        transition-property: opacity;
+        transition-timing-function: ease;
+      }
+    }
+  }
+}
+
+//------------------------------------------------------------------------------
+//
+// クリアフィックス
+//
+// @param なし
+//
+//------------------------------------------------------------------------------
+@mixin clearfix {
+  zoom: 1;
+
+  &::before,
+  &::after {
+    display: block;
+    height: 0;
+    content: "\0020";
+    visibility: hidden;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+//------------------------------------------------------------------------------
+//
+// メディアクエリ
+//
+// @param media(require) String - small or medium or large
+//
+// $break-large:  990px;
+// $break-medium: 700px;
+// $break-small:  480px;
+//
+//------------------------------------------------------------------------------
+@mixin respondTo($media) {
+  @if $media == small {
+    @media only screen and (max-width: $break-small) {
+      @content;
+    }
+  }
+  @else if $media == medium {
+    @media only screen and (max-width: $break-medium) {
+      @content;
+    }
+  }
+  @else if $media == large {
+    @media only screen and (max-width: $break-large) {
+      @content;
+    }
+  }
+}
+
+//------------------------------------------------------------------------------
+//
+// メディアクエリ Device width
+//
+// @param media(require) String - small or medium or large
+//
+// $break-large:  990px;
+// $break-medium: 700px;
+// $break-small:  480px;
+//
+//------------------------------------------------------------------------------
+@mixin respondToDw($media) {
+  @if $media == small {
+    @media only screen and (max-device-width: $break-small) {
+      @content;
+    }
+  }
+  @else if $media == medium {
+    @media only screen and (max-device-width: $break-medium) {
+      @content;
+    }
+  }
+  @else if $media == large {
+    @media only screen and (max-device-width: $break-large) {
+      @content;
+    }
+  }
+}
+
+//------------------------------------------------------------------------------
+//
+// コンテンツ wrapper
+//
+// @param なし
+//
+//------------------------------------------------------------------------------
+@mixin wrapper {
+  @include clearfix;
+  @include respondTo(large) {
+    width: 100%;
+    min-width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  @include respondTo(small) {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  width: $content-width;
+  min-width: $content-width;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 0 auto;
+}

@@ -1,0 +1,125 @@
+//==============================================================================
+//  Module: Side
+//==============================================================================
+
+.sidebar {
+  @include respondTo(large) {
+    width: 100%;
+  }
+
+  width: $content-width;
+
+  aside,
+  nav {
+    @include fontSize(14);
+  }
+}
+
+.sidebar__title {
+  @extend %title;
+
+  margin: $mlv2 0 2em;
+}
+
+.sidebar__list {
+  @extend %list;
+  @include fontSize(12);
+  @include linkColor($base-link-color, $base-link-color, "underline", "none", $base-link-color, true);
+}
+
+.sidebar__list--tags {
+  @extend %resetlist;
+  @include fontSize(12);
+
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin: 0 0 4px 14px;
+  }
+
+  a {
+    position: relative;
+    display: block;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    text-decoration: none;
+    background: $key-color-1;
+    border-radius: 0 3px 3px 0;
+    &:visited {
+      color: white;
+    }
+    &:hover {
+      color: white;
+      opacity: .7;
+      transition-duration: .5s;
+      transition-property: opacity;
+    }
+    &::before {
+      position: absolute;
+      top: 0;
+      left: -20px;
+      display: block;
+      width: 0;
+      height: 4px;
+      border-color: transparent $key-color-1 transparent transparent;
+      border-style: solid;
+      border-width: 10px;
+      content: "";
+    }
+    &::after {
+      position: absolute;
+      top: 10px;
+      left: -4px;
+      display: block;
+      width: 4px;
+      height: 4px;
+      background: white;
+      border-radius: 2px;
+      content: "";
+    }
+  }
+}
+
+.sidebar__list--photos {
+  @extend %resetlist;
+  @extend %image-fit;
+  @include clearfix;
+  @include respondTo(medium) {
+    margin-left: -2%;
+  }
+
+  margin-left: -1%;
+
+  li {
+    @include respondTo(medium) {
+      width: 18%;
+      margin: 0 0 2% 2%;
+    }
+
+    float: left;
+    width: 9%;
+    margin: 0 0 1% 1%;
+
+    img {
+      transition-duration: .4s;
+      transition-property: opacity;
+      transition-timing-function: ease;
+      backface-visibility: hidden;
+    }
+
+    a {
+      display: block;
+
+      &:hover {
+
+        img {
+          opacity: .6;
+        }
+      }
+    }
+  }
+}

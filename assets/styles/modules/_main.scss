@@ -1,0 +1,52 @@
+//==============================================================================
+//  Module: Main
+//==============================================================================
+
+.main {
+  @extend %clearfix;
+  @include respondTo(large) {
+    width: 100%;
+  }
+
+  width: $content-width;
+}
+
+.main__title {
+  @extend %title;
+
+  margin: 0 0 50px;
+}
+
+.main__pagination {
+  @include linkColor($base-link-color, $base-link-color, "none", "none", $base-link-color, true);
+  text-align: center;
+}
+
+.main__pagination--prev {
+  display: inline-block;
+  color: $key-color-2-ll;
+
+  a::before,
+  span::before {
+    @extend %icon;
+
+    content: "\f100";
+  }
+}
+
+.main__pagination--next {
+  display: inline-block;
+  color: $key-color-2-ll;
+
+  a::after,
+  span::after {
+    @extend %icon;
+
+    content: "\f101";
+  }
+}
+
+.main__pagination--number {
+  display: inline-block;
+  margin: 0 2rem;
+}

@@ -1,0 +1,101 @@
+//==============================================================================
+//  Module: Footer
+//==============================================================================
+
+.footer {
+  @include linkColor($base-link-color, $base-link-color, "underline", "none", $base-link-color, true);
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: $background;
+  letter-spacing: .1em;
+
+  @include respondTo(medium) {
+    text-align: center;
+  }
+}
+
+.footer__byline {
+  @include wrapper;
+  font-style: italic;
+}
+
+.footer__license {
+  @include wrapper;
+  font-style: italic;
+}
+
+.footer__social {
+  @include wrapper;
+  @include linkColor($key-color-2, $key-color-2, "none", "none", $key-color-1, true);
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  @include respondTo(medium) {
+    padding: 0 10px;
+  }
+
+  ul {
+    @extend %resetlist;
+
+    display: inline-block;
+    margin: 0;
+    @include respondTo(medium) {
+
+      margin-top: 0;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 3px;
+    vertical-align: middle;
+  }
+
+  a {
+    border-radius: 100%;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    line-height: 3rem;
+    letter-spacing: 0;
+    text-align: center;
+    background: white;
+
+    @include respondTo(medium) {
+      width: 2.5rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
+    }
+
+    &:hover {
+      transition-property: color, background-color;
+      transition-duration: .3s;
+    }
+  }
+
+  $icon: "\f099" "\f16d" "\f0d2" "\f203" "\f09b" "\f09e";
+  $class: twitter instagram pinterest lastfm github feed;
+  $length: length($class);
+
+  @for $i from 1 through $length {
+
+    &--#{nth($class, $i)} {
+      a {
+        &::before {
+          @extend %icon;
+          display: block;
+          margin: 0 auto;
+          font-size: 1.3rem;
+          content: nth($icon, $i);
+        }
+      }
+    }
+  }
+}
+
+.footer__links {
+  @include wrapper;
+}

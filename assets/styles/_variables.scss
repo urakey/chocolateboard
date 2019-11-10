@@ -1,0 +1,44 @@
+//==============================================================================
+//  Variables
+//==============================================================================
+
+// Base Colors
+$key-gold:      #b0af96;
+$key-gray:      #a7a7a7;
+$key-black:     #272727;
+
+// SNS Brand Colors
+$key-color-1: $key-gray;
+$key-color-2: $key-black;
+
+$key-color-2-l:    #676767;
+$key-color-2-ll:   #a7a7a7;
+$key-color-2-lll:  #e7e7e7;
+$key-color-2-llll: #f7f7f7;
+
+// Content Base Setting
+$base-image: "/assets/images";
+$base-font: Alegreya, "游明朝体", "Yu Mincho", YuMincho, "Hiragino Mincho ProN", serif;
+$code-font: "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
+
+$base-background:         white;
+$base-color:              $key-color-2;
+$base-link-color:         $key-color-2-l;
+$base-link-color-visited: $key-color-2-l;
+
+$content-width:      1200px;
+$content-width-main: 640px;
+$content-width-sub:  300px;
+
+$background:   $key-color-2-llll;
+$border:       $key-color-2-lll;
+$break-large:  1260px;
+$break-medium: 700px;
+$break-small:  480px;
+
+// Other
+$mlv1: 5rem;
+$mlv2: 4rem;
+$mlv3: 3rem;
+$mlv4: 2rem;
+$mlv5: 1rem;

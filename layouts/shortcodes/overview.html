@@ -1,0 +1,17 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<dl class="project">
+  {{ with .Get "project" }}
+    <dt>Project</dt>
+    <dd class="project__name">{{ . }}</dd>
+  {{ end }}
+  {{ with .Get "date" }}
+    <dt>Date</dt>
+    <dd class="project__date">{{ . | dateFormat "January 2, 2006" }}</dd>
+  {{ end }}
+  {{ with .Get "url" }}
+    <dt>URL</dt>
+    <dd class="project__url"><a href="{{ . }}">{{ . }}</a></dd>
+  {{ end }}
+  <dt>Credits</dt>
+  <dd class="project__credits">{{ .Inner }}</dd>
+</dl>

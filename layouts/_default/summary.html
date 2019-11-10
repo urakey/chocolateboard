@@ -1,0 +1,30 @@
+<article class="articleListItem" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <a href="{{ .Permalink }}" itemprop="url">
+    {{ with .Params.eyecatch }}
+      <figure class="articleListItem__eyecatch">
+        <img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image">
+      </figure>
+    {{ end }}
+    <h1 class="articleListItem__title" itemprop="name">{{ .Title | safeHTML }}</h1>
+    {{ with .Params.excerpt }}
+      <div class="articleListItem__body" itemprop="description">
+        <p>{{ . }}</p>
+      </div>
+    {{ end }}
+  </a>
+
+  <footer class="article__footer" itemprop="articleBody">
+    <ul>
+      <li>
+        <span>Posted on</span>
+        <time datetime="{{ .Date.Format "2006-01-02T00:00:00+09:00" }}" itemprop="datePublished">{{ .Date.Format "January 2, 2006" }}</time>
+      </li>
+      <li>
+        <span>Categories</span>
+        {{ with .Params.categories }}
+          {{ range . }}<a href="{{ "/categories/" | relURL }}{{ . | urlize }}/" rel="tag category">{{ . }}</a>{{ end }}
+        {{ end }}
+      </li>
+    </ul>
+  </footer>
+</article>

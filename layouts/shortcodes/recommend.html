@@ -1,0 +1,11 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class="recommend">
+  <a href="{{ .Get "url" }}" target="_blank">
+    <div class="recommend__body">
+      <p>{{ .Get "title" }}</p>
+      <p>{{ .Get "description" }}</p>
+      <p>{{ if .Get "source" }}{{ . }}{{ else }}www.amazon.co.jp{{ end }}</p>
+    </div>
+    <figure class="recommend__image">{{ with .Get "image" }}<img src="{{ . }}">{{ end }}</figure>
+  </a>
+</div>

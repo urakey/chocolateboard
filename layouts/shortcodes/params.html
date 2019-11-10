@@ -1,0 +1,15 @@
+{{ if eq (index .Params 0) "title" }}
+  {{ .Site.Title }}
+{{ else if eq (index .Params 0) "author" }}
+  {{ .Site.Author.name }}
+{{ else if eq (index .Params 0) "twitter" }}
+  {{ .Site.Params.twitter }}
+{{ else if eq (index .Params 0) "facebook" }}
+  {{ .Site.Params.facebook }}
+{{ else if eq (index .Params 0) "pinterest" }}
+  {{ .Site.Params.pinterest }}
+{{ else if eq (index .Params 0) "github" }}
+  {{ .Site.Params.github }}
+{{ else if eq (index .Params 0) "lineblog" }}
+  {{ (.Site.Params.lineblog) }}
+{{ end }}
