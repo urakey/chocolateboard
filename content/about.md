@@ -34,23 +34,25 @@ Designer, UI Engineer
 ウェブやアプリを丁寧に作るのが好きです。  
 プライベートでもいくつかのプロジェクトに参加したりしなかったりしています。
 
-好きなもの: 猫, コーヒー, スニーカー, 音楽, 文具, チョコレート, Netflix
+好きなもの: コーヒー、チョコレート、スニーカー、音楽、Netflix、猫、文具
 
 技術的なことが関係するめもは [log.chocolateboard](https://log.chocolateboard.net/) に書いています。
 
 PUBG観戦が趣味です💎  
 好きな大会: PJS, PKL, 国際大会  
 好きな日本のチーム: Rascal Jester, SunSister, Crest Gaming Xanadu  
-好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Rio, Dep, and more
+好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Rio, Dep, SSeeS, and more
 
 ### Tools
 
 日常的に関わっているツール。
 
 - Sketch
-- Adobe XD
+- Figma
 - Adobe Photoshop
 - Adobe Illustrator
+- Adobe Lightroom
+- Adobe XD
 - InVision
 - Atom
 - Xcode
@@ -73,12 +75,7 @@ PUBG観戦が趣味です💎
 
 ### Getting in touch.
 
-akey[at]chocolateboard.net ヘメールしていただくか、SNS からご連絡ください ;D
-
-- [Twitter](https://twitter.com/urakey)
-- [Facebook](https://www.facebook.com/urakey)
-- [Pinterest](https://pinterest.com/urakey)
-- [GitHub](https://github.com/urakey)
+akey[at]chocolateboard.net ヘメールしていただくか、[Twitter](https://twitter.com/urakey) からご連絡ください ;D
 
 {{% /section %}}
 
