@@ -15,15 +15,15 @@ type:  'page'
 {{% section id="profile" %}}
 ## Self introduction.
 
-{{< figure src="/assets/images/icon/profile.png" alt="" width="90" height="90" >}}
+{{< figure src="/assets/images/icon/profile.jpg" alt="" width="200" >}}
 
 Aki Fukayama [akey]  
 Designer, UI Engineer
 
 岩手県盛岡市出身。東京都在住。実家は仙台。  
-専門学校のスタイリスト学科卒。
+東京モード学園スタイリスト学科卒。
 
-数年間アパレル業界内をふらふら。  
+数年間アパレル業界をふらふら。  
 2008年 Web制作会社  
 2009年 株式会社凪  
 2013年 株式会社ディー・エヌ・エー  
