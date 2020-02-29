@@ -31,17 +31,20 @@ Designer, UI Engineer
 2019年 株式会社シン
 
 サービスをつくる仕事をしています。  
-ウェブやアプリを丁寧に作るのが好きです。  
+ウェブやアプリを丁寧につくるのが好きです。  
+印刷物をつくるのも好きです。  
 プライベートでもいくつかのプロジェクトに参加したりしなかったりしています。
 
-好きなもの: コーヒー、チョコレート、スニーカー、音楽、Netflix、猫、文具
+いまは [Chompy](https://chompy.jp/) をつくっています。
 
 技術的なことが関係するめもは [log.chocolateboard](https://log.chocolateboard.net/) に書いています。
 
+好きなもの: コーヒー, チョコレート, スニーカー, 音楽, Netflix, 写真, ハニーディップ
+
 PUBG観戦が趣味です💎  
 好きな大会: PJS, PKL, 国際大会  
-好きな日本のチーム: Rascal Jester, SunSister, Crest Gaming Xanadu  
-好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Rio, Dep, SSeeS, and more
+好きな日本のチーム: Rascal Jester, SunSister  
+好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Rio, SSeeS, and more
 
 ### Tools
 
@@ -58,8 +61,8 @@ PUBG観戦が趣味です💎
 - Xcode
 - Android Studio
 - iTerm
-- Slack
 - Git
+- Slack
 
 プロジェクトで関わったことのある言語など。
 
@@ -67,8 +70,9 @@ PUBG観戦が趣味です💎
 - CSS
 - JavaScript
 - Swift
-- Java
+- Flutter
 - Go
+- Java
 - Ruby [Sinatra, Ruby on Rails, Slim, ERB]
 - Perl [Xslate]
 - PHP [CakePHP, WordPress, Twig]
