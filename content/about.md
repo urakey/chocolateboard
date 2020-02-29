@@ -31,11 +31,11 @@ Designer, UI Engineer
 2019年 株式会社シン
 
 サービスをつくる仕事をしています。  
+いまは [Chompy](https://chompy.jp/) をつくっています。
+
 ウェブやアプリを丁寧につくるのが好きです。  
 印刷物をつくるのも好きです。  
 プライベートでもいくつかのプロジェクトに参加したりしなかったりしています。
-
-いまは [Chompy](https://chompy.jp/) をつくっています。
 
 技術的なことが関係するめもは [log.chocolateboard](https://log.chocolateboard.net/) に書いています。
 
