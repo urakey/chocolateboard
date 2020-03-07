@@ -33,7 +33,7 @@ Designer, UI Engineer
 サービスをつくる仕事をしています。  
 いまは [Chompy](https://chompy.jp/) をつくっています。
 
-ウェブやアプリを丁寧につくるのが好きです。  
+ウェブやアプリをていねいにつくるのが好きです。  
 印刷物をつくるのも好きです。  
 プライベートでもいくつかのプロジェクトに参加したりしなかったりしています。
 
@@ -44,7 +44,7 @@ Designer, UI Engineer
 PUBG観戦が趣味です💎  
 好きな大会: PJS, PKL, 国際大会  
 好きな日本のチーム: Rascal Jester, SunSister  
-好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Rio, SSeeS, and more
+好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Sabrac, SSeeS, Rio, and more
 
 ### Tools
 
