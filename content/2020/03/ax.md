@@ -5,7 +5,7 @@ categories: ['note']
 tags:       ['misc']
 url:        '/ax/'
 eyecatch:   '/assets/images/posts/2020/03/ax/eyecatch.jpg'
-excerpt:    ''
+excerpt:    '久しぶりに伊坂幸太郎読んだ♡'
 ---
 
 久しぶりに伊坂幸太郎読んだ♡  
