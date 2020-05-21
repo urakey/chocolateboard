@@ -10,7 +10,7 @@ function Flickr($elem) {
     size: 'medium',
     sort: 'date-taken-desc',
     tags: ['instagram','Instagram'],
-    per_page: 60
+    per_page: 30
   };
 
   this.init.apply(this);
