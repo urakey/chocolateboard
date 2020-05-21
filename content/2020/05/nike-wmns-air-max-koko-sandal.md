@@ -5,10 +5,10 @@ categories: ['note']
 tags:       ['misc']
 url:        '/nike-wmns-air-max-koko-sandal/'
 eyecatch:   '/assets/images/posts/2020/05/nike-wmns-air-max-koko-sandal/eyecatch.jpg'
-excerpt:    'ZOZOで予約してたの『NIKE WMNS AIR MAX KOKO SANDAL』が届いた♡'
+excerpt:    'ZOZOで予約してた『NIKE WMNS AIR MAX KOKO SANDAL』が届いた♡'
 ---
 
-ZOZOで予約してたの『NIKE WMNS AIR MAX KOKO SANDAL』が届いた♡  
+ZOZOで予約してた『NIKE WMNS AIR MAX KOKO SANDAL』が届いた♡  
 NIKE公式のオンラインストアでは5月25日に発売されるっぽい。
 
 スウッシュの色が違ってたら白黒のほうも買ってた！  
