@@ -31,23 +31,23 @@ Designer, UI Engineer
 2019年 株式会社シン
 
 サービスをつくる仕事をしています。  
-いまは [Chompy](https://chompy.jp/) をつくっています。
+いまは [Chompy](https://chompy.jp/) をつくっています🍝
 
 ていねいにつくるのが好きです。  
 プライベートでもいくつかのプロジェクトに参加したりしなかったりしています。
 
-サービス上で使う言葉についていつも考えています。  
+サービスが話す言葉についていつも考えています。  
 漢字をひらくかどうか、絵文字の選び方、語尾の温度などなど。  
 言葉の選び方を大事にしている人と働くことができると幸せな気持ちになります。
 
-技術的なことが関係するめもは [log.chocolateboard](https://log.chocolateboard.net/) に書いています。
-
-好きなもの: コーヒー, チョコレート, スニーカー, 音楽, Netflix, 写真, ハニーディップ, 自転車
+好きなもの: コーヒー, チョコレート, スニーカー, 音楽, Netflix, 写真, ハニーディップ, スープカレー、自転車
 
 PUBG観戦が趣味です💎  
 好きな大会: PJS, PKL, 国際大会  
 好きな日本のチーム: Rascal Jester, SunSister  
-好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Sabrac, SSeeS, Rio, and more
+好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Sabrac, SSeeS, Rio, Oka, and more
+
+技術的なことが関係するめもは [log.chocolateboard](https://log.chocolateboard.net/) に書いています。
 
 ### Tools
 
