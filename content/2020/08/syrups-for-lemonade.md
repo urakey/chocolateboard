@@ -1,5 +1,5 @@
 ---
-date:       2020-06-28
+date:       2020-08-01
 title:      'Syrups for lemonade'
 categories: ['note']
 tags:       ['misc']
