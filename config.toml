@@ -9,7 +9,7 @@ name = 'Aki Fukayama [akey]'
 url  = '/about/'
 
 [Params]
-description = 'Aki Fukayama [akey] // Designer, UI Engineer'
+description = 'Aki Fukayama [akey] // Service Designer'
 feed        = '/feed.rss'
 blog        = 'https://log.chocolateboard.net'
 photos      = 'https://1020.photo/'

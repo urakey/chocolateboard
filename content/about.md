@@ -18,7 +18,7 @@ type:  'page'
 {{< figure src="/assets/images/icon/profile.jpg" alt="" width="200" >}}
 
 Aki Fukayama [akey]  
-Designer, UI Engineer
+Service Designer
 
 岩手県盛岡市出身。東京都在住。実家は仙台。  
 東京モード学園スタイリスト学科卒。
@@ -40,7 +40,7 @@ Designer, UI Engineer
 漢字をひらくかどうか、絵文字の選び方、語尾の温度などなど。  
 言葉の選び方を大事にしている人と働くことができると幸せな気持ちになります。
 
-好きなもの: コーヒー, チョコレート, スニーカー, 音楽, Netflix, 写真, ハニーディップ, スープカレー、自転車
+好きなもの: コーヒー, チョコレート, スニーカー, 音楽, Netflix, 写真, ハニーディップ, スープカレー, 自転車, 筋トレ
 
 PUBG観戦が趣味です💎  
 好きな大会: PJS, PKL, 国際大会  
@@ -48,37 +48,6 @@ PUBG観戦が趣味です💎
 好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Sabrac, SSeeS, Rio, Oka, and more
 
 技術的なことが関係するめもは [log.chocolateboard](https://log.chocolateboard.net/) に書いています。
-
-### Tools
-
-日常的に関わっているツール。
-
-- Sketch
-- Figma
-- Adobe Photoshop
-- Adobe Illustrator
-- Adobe Lightroom
-- Adobe XD
-- InVision
-- Atom
-- Xcode
-- Android Studio
-- iTerm
-- Git
-- Slack
-
-プロジェクトで関わったことのある言語など。
-
-- HTML
-- CSS
-- JavaScript
-- Swift
-- Flutter
-- Go
-- Java
-- Ruby [Sinatra, Ruby on Rails, Slim, ERB]
-- Perl [Xslate]
-- PHP [CakePHP, WordPress, Twig]
 
 ### Getting in touch.
 
