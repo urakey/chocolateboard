@@ -46,7 +46,7 @@ PUBG観戦と筋トレが趣味です💎
 最近はVALORANTの大会も観ます。
 2021年からウエイトトレーニングをはじめて、趣味になりました💪
 
-写真はこちら 👉 [1020]((https://1020.photo/))
+写真はこちら 👉 [1020](https://1020.photo/)  
 技術的なことが関係するめもはこちら 👉 [log.chocolateboard](https://log.chocolateboard.net/)
 
 ### Getting in touch.
