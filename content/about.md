@@ -28,9 +28,9 @@ Service Designer
 2009年 株式会社凪  
 2013年 株式会社ディー・エヌ・エー  
 2016年 株式会社メルカリ / 株式会社ソウゾウ  
-2019年 株式会社シン
+2019年 株式会社Chompy
 
-サービスをつくる仕事をしています。  
+サービスをつくる仕事をしています。
 いまは [Chompy](https://chompy.jp/) をつくっています🍝
 
 ていねいにつくるのが好きです。  
@@ -40,14 +40,14 @@ Service Designer
 漢字をひらくかどうか、絵文字の選び方、語尾の温度などなど。  
 言葉の選び方を大事にしている人と働くことができると幸せな気持ちになります。
 
-好きなもの: コーヒー, チョコレート, スニーカー, 音楽, Netflix, 写真, ハニーディップ, スープカレー, 自転車, 筋トレ
+好きなもの: コーヒー, スニーカー, 音楽, Netflix, 写真, スケートボード, スープカレー, ピザ, セルフネイル
 
-PUBG観戦が趣味です💎  
-好きな大会: PJS, PKL, 国際大会  
-好きな日本のチーム: Rascal Jester, SunSister  
-好きな日本の選手: Wesker, CiNVe, CrazySam, Gabha, Sabrac, SSeeS, Rio, Oka, and more
+PUBG観戦と筋トレが趣味です💎  
+最近はVALORANTの大会も観ます。
+2021年からウエイトトレーニングをはじめて、趣味になりました💪
 
-技術的なことが関係するめもは [log.chocolateboard](https://log.chocolateboard.net/) に書いています。
+写真はこちら 👉 [1020]((https://1020.photo/))
+技術的なことが関係するめもはこちら 👉 [log.chocolateboard](https://log.chocolateboard.net/)
 
 ### Getting in touch.
 

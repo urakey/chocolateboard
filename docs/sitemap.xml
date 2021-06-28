@@ -1,458 +1,276 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://chocolateboard.net/2021/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/categories/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/tags/misc/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/categories/note/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/tags/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/hakucho-to-komori/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/nike-wmns-dunk-low-photon-dust/</loc>
     <lastmod>2021-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/pizzanista-tokyo/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/sakura-2021/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/thanks-pjs/</loc>
     <lastmod>2021-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/nike-wmns-dunk-low-white-black/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2020/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/nike-sb-blazer-low-gt/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/three-birthday-gift-2020/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/goodbye-supreme-kermit-the-frog-sticker/</loc>
     <lastmod>2020-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/union-nike-air-jordan-4-retro-sp-guava-ice/</loc>
     <lastmod>2020-09-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/misterdonut-50th/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/miyashita-park/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/w-nike-daybreak/</loc>
     <lastmod>2020-08-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/syrups-for-lemonade/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/azabujuban-kineya-margherita/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/nike-wmns-air-max-koko-sandal/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/sakura-2020/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/ax/</loc>
     <lastmod>2020-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/hashiruhito7/</loc>
     <lastmod>2020-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/tokyo-peanut-mania/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/muto-coffee-roastery/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/a-happy-new-year-flower-2020/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/new-balance-socks/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/a-happy-new-year-2020/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2019/</loc>
     <lastmod>2019-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/loccitane-and-pierre-herme-2019/</loc>
     <lastmod>2019-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/kirakira-hillslife/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/nike-sacai-ldwaffle/</loc>
     <lastmod>2019-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/indoor-house-plants-2019/</loc>
     <lastmod>2019-07-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/senbei-brothers/</loc>
     <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/undercover-nike-daybreak/</loc>
     <lastmod>2019-06-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/sonna-banana/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/vivalarock-2019/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/yakiniku-kan-higashinakano/</loc>
     <lastmod>2019-05-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/starbucks-strawberry-very-much-frappuccino/</loc>
     <lastmod>2019-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/nikon1-v1/</loc>
     <lastmod>2019-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/sakura-2019/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/tea-chiffon-cake/</loc>
     <lastmod>2019-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2018/</loc>
     <lastmod>2018-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/steel-series-arctis5/</loc>
     <lastmod>2018-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/audio-technica-ath-ckr7tw/</loc>
     <lastmod>2018-12-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/teppei-kishida-hi-standard-sunny-days/</loc>
     <lastmod>2018-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/tags/design/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/categories/works/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/tags/writing/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/techbookfest-4/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/vivalarock-2018/</loc>
     <lastmod>2018-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/sakura-2018/</loc>
     <lastmod>2018-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/work-canvas-2018-website/</loc>
     <lastmod>2018-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2017/</loc>
     <lastmod>2017-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/shiogama-nakaoroshi-2017/</loc>
     <lastmod>2017-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/biskett-logo/</loc>
     <lastmod>2017-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/vivalarock-2017/</loc>
     <lastmod>2017-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/skett-logo/</loc>
     <lastmod>2017-04-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2016/</loc>
     <lastmod>2016-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/nintendo-classic-mini-family-computer/</loc>
     <lastmod>2016-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/surprise-holic-2016-website/</loc>
     <lastmod>2016-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/haku-2016-website/</loc>
     <lastmod>2016-05-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/special-thanks-2016-website/</loc>
     <lastmod>2016-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/haku-2016-website-teaser/</loc>
     <lastmod>2016-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/surprise-holic-2016-website-teaser/</loc>
     <lastmod>2016-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2015/</loc>
     <lastmod>2015-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/kirakira-hikarielife/</loc>
     <lastmod>2015-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/chocolateboard-2015-website/</loc>
     <lastmod>2015-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/summersonic-2015/</loc>
     <lastmod>2015-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/tanabata-2015/</loc>
     <lastmod>2015-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/golden-week-2015/</loc>
     <lastmod>2015-05-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/chocolateboard-2015-blog/</loc>
     <lastmod>2015-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/peco-2015-website/</loc>
     <lastmod>2015-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2014/</loc>
     <lastmod>2014-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/ohanami-lunch/</loc>
     <lastmod>2014-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2013/</loc>
     <lastmod>2013-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/mocco-limited-shop-kindling/</loc>
     <lastmod>2013-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/chocolateboard-2013-website/</loc>
     <lastmod>2013-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/chocolateboard-2013-blog/</loc>
     <lastmod>2013-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2012/</loc>
     <lastmod>2012-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/hanabi/</loc>
     <lastmod>2012-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/2011/</loc>
     <lastmod>2011-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/tokyo-running/</loc>
     <lastmod>2011-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/revo-2011-website/</loc>
     <lastmod>2011-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/form-2011-website/</loc>
     <lastmod>2011-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/hanaya6-2011-website/</loc>
     <lastmod>2011-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chocolateboard.net/privacy/</loc>
   </url>
-  
 </urlset>

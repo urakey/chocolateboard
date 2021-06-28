@@ -111,12 +111,12 @@ gulp.task('format:rss',
 // -----------------------------------------------------------------------------
 // Images
 gulp.task('minify:images', function() {
-  return gulp.src(PATHS.src + '/images/**/*.{png,svg,webp}')
+  return gulp.src(PATHS.dest + '/images/**/*.{png,svg,webp}')
     .pipe($.imagemin())
     .pipe(gulp.dest(PATHS.dest + '/images'));
 });
 gulp.task('minify:images:jpg', function() {
-  return gulp.src(PATHS.src + '/images/**/*.jpg')
+  return gulp.src(PATHS.dest + '/images/**/*.jpg')
     .pipe($.imagemin(function() {
       jpegoptim({
         stripIptc: false
@@ -176,5 +176,5 @@ gulp.task('watch', function() {
     PATHS.src + '/styles/**/*',
     PATHS.src + '/scripts/**/*',
   ];
-  gulp.watch(targets, ['build']);
+  gulp.watch(targets, gulp.task(['build']));
 });
