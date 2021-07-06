@@ -1,5 +1,6 @@
 var gulp            = require('gulp');
 var gulpLoadPlugins = require('gulp-load-plugins');
+var sass            = require('gulp-sass')(require('sass'));
 var browserify      = require('browserify');
 var through2        = require('through2');
 var del             = require('del');
@@ -25,7 +26,7 @@ var AUTOPREFIXER_BROWSERS = [
 gulp.task('sass', function() {
   return gulp.src(PATHS.src + '/**/*.scss')
     .pipe($.plumber())
-    .pipe($.sass({
+    .pipe(sass({
       bundleExec: true,
       errLogToConsole: true,
       outputStyle: 'expanded'
@@ -37,7 +38,7 @@ gulp.task('sass', function() {
 gulp.task('minify:css', function() {
   return gulp.src(PATHS.dest + '/**/*.css')
     .pipe($.plumber())
-    .pipe($.minifyCss())
+    .pipe($.cleanCss())
     .pipe(gulp.dest(PATHS.dest));
 });
 
@@ -111,12 +112,12 @@ gulp.task('format:rss',
 // -----------------------------------------------------------------------------
 // Images
 gulp.task('minify:images', function() {
-  return gulp.src(PATHS.dest + '/images/**/*.{png,svg,webp}')
+  return gulp.src(PATHS.src + '/images/**/*.{png,svg,webp}')
     .pipe($.imagemin())
     .pipe(gulp.dest(PATHS.dest + '/images'));
 });
 gulp.task('minify:images:jpg', function() {
-  return gulp.src(PATHS.dest + '/images/**/*.jpg')
+  return gulp.src(PATHS.src + '/images/**/*.jpg')
     .pipe($.imagemin(function() {
       jpegoptim({
         stripIptc: false
@@ -137,8 +138,8 @@ gulp.task('copy:js', function() {
 });
 
 gulp.task('copy:fonts', function() {
-  return gulp.src('node_modules/font-awesome/fonts/*')
-    .pipe(gulp.dest(PATHS.dest + '/fonts'));
+  return gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
+    .pipe(gulp.dest(PATHS.dest + '/webfonts'));
 });
 
 gulp.task('clean', function(done) {
