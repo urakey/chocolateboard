@@ -26,6 +26,6 @@ Special Thanks: mhidaka, vvakame
 
 わたしが書いた章は以下よりダウンロードいただけます。その他の章については、それぞれの章を書いた著者にお問い合わせください。
 
-- [第8章 メルカリ カウルとSketchTool / @urakey（PDF）](/assets/documents/kauru-book-akey.pdf)
+- [第8章 メルカリ カウルとSketchTool / @urakey（PDF）](/assets/files/2018/kauru-book-akey.pdf)
 
 {{% notice %}}大変ありがたいことに当日中に完売となり、追加で印刷する予定はありません。{{% /notice %}}
