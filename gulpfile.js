@@ -142,6 +142,11 @@ gulp.task('copy:fonts', function() {
     .pipe(gulp.dest(PATHS.dest + '/webfonts'));
 });
 
+gulp.task('copy:files', function() {
+  return gulp.src(PATHS.src + '/files/**')
+    .pipe(gulp.dest(PATHS.dest + '/files'));
+});
+
 gulp.task('clean', function(done) {
   del([PATHS.publishdir + '/**/index.xml', '!' + PATHS.publishdir + '/index.xml']);
   done();
@@ -152,7 +157,8 @@ gulp.task('clean', function(done) {
 gulp.task('init',
   gulp.series(
     'copy:js',
-    'copy:fonts'
+    'copy:fonts',
+    'copy:files'
   )
 );
 
