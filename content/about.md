@@ -15,7 +15,7 @@ type:  'page'
 {{% section id="profile" %}}
 ## Self introduction.
 
-{{< figure src="/assets/images/icon/profile.jpg" alt="" width="200" >}}
+{{% figure src="/assets/images/icon/profile.jpg" alt="" width="200" %}}
 
 Aki Fukayama [akey]  
 Service Designer

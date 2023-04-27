@@ -1,5 +1,4 @@
 Baseurl          = 'https://chocolateboard.net'
-LegalanguageCode = 'ja-JP'
 Title            = 'chocolateboard.'
 Publishdir       = 'docs'
 Paginate         = 24
@@ -25,3 +24,6 @@ archives    = ['2022', '2021', '2020', '2019', '2018', '2017', '2016', '2015', '
 [Taxonomies]
 tags       = 'tags'
 categories = 'categories'
+
+[markup.goldmark.renderer]
+  unsafe = true
