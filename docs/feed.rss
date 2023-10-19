@@ -2,7 +2,7 @@
 <channel>
   <title>chocolateboard.</title>
   <link>https://chocolateboard.net/</link>
-  
+  <language>en</language>
   <author>Aki Fukayama [akey]</author>
   <description>Aki Fukayama [akey] // Service Designer</description>
   <generator uri="https://gohugo.io">Hugo</generator>
