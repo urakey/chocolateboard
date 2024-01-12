@@ -9,7 +9,7 @@ excerpt:    'オンラインポートフォリオを作成しました。'
 ---
 
 {{% overview project="Re-designed this website. v.2013" date="2013-06-24" url="https://chocolateboard.net" %}}
-Design, Develop(Front End): akey
+Design, Develop (Front End): akey
 {{% /overview %}}
 
 オンラインポートフォリオを作成しました。

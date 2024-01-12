@@ -9,7 +9,7 @@ excerpt:    'PECO のβ版ウェブサイト。'
 ---
 
 {{% overview project="PECO -Beta-" date="2015-01-03" url="http://peco-japan.com" %}}
-Design, Develop(Front End), Writing: akey  
+Design, Develop (Front End), Writing: akey  
 Client: PECO Co.,Ltd.
 {{% /overview %}}
 

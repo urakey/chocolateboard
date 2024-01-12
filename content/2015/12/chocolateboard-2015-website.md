@@ -9,7 +9,7 @@ excerpt:    'WordPress @Sakura VPS から Middleman blog ＠GitHub Pages へ変�
 ---
 
 {{% overview project="Re-designed this website. v.2015" date="2015-12-09" url="https://chocolateboard.net" %}}
-Design, Develop(Front End): akey
+Design, Develop (Front End): akey
 {{% /overview %}}
 
 WordPress @Sakura VPS から Middleman blog ＠GitHub Pages へ変更し、デザインをアップデートしました。  

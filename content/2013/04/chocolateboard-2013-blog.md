@@ -9,7 +9,7 @@ excerpt:    '制作に関するメモ書き専用のブログを作成しまし�
 ---
 
 {{% overview project="Blog v.2013" date="2013-04-28" url="https://log.chocolateboard.net" %}}
-Design, Develop(Front End): akey
+Design, Develop (Front End): akey
 {{% /overview %}}
 
 制作に関するメモ書き専用のブログを作成しました。マイペースに更新していきたいと思います。

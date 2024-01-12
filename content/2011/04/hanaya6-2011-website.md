@@ -9,7 +9,7 @@ excerpt:    'HANAYA6のオンラインストア。 '
 ---
 
 {{% overview project="HANAYA6 Online Store" date="2011-04-24" %}}
-Direction, Design, Develop(Front End): akey  
+Direction, Design, Develop (Front End): akey  
 Client: HANAYA6  
 {{% /overview %}}
 
